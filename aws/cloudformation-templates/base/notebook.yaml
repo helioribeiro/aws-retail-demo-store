@@ -45,9 +45,6 @@ Parameters:
   PinpointAppId:
     Type: String
 
-  EvidentlyProjectName:
-    Type: String
-
 Conditions:
   UseDefaultGitHubUser: !Equals
       - !Ref GitHubUser
