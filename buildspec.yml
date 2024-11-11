@@ -26,7 +26,7 @@ phases:
   build:
     commands:
       - python -V
-      - git clone https://github.com/aws-samples/retail-demo-store
+      - git clone https://github.com/helioribeiro/aws-retail-demo-store
       - cd retail-demo-store/
       - pip3 install -r generators/requirements.txt
       - ./stage.sh retail-demo-store-code --private-s3
